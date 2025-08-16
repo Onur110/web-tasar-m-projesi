@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hilal'e Sürpriz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+  <div class="envelope" id="envelope" aria-label="Zarf" role="button" tabindex="0">
+    <div class="envelope-flap" id="flap"></div>
+    <div class="envelope-body"></div>
+    <div class="note" id="note">
+      <p>Hilal,</p>
+      <p>Belki öyle süslü sözler bilmiyorum ama seni mutlu etmek için saatlerce ekran başında kod yazarım.  
+      Sen gül ki, benim dünyam aydınlansın 💖</p>
+
+      <div class="buttons">
+        <button id="acceptBtn">Kabul Et</button>
+        <button id="declineBtn">Hayır</button>
+      </div>
+
+      <div id="finalMessage">Seninle her şey daha güzel Hilal 💖</div>
+    </div>
+  </div>
+</div>
+
+<!-- Arka plan müzik -->
+<audio id="music" loop>
+  <source src="assets/music.mp3" type="audio/mp3">
+  Tarayıcınız ses elementini desteklemiyor.
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
